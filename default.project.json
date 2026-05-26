@@ -4,6 +4,9 @@
     "$className": "DataModel",
 
     "ReplicatedStorage": {
+      "Events": {
+        "$className": "Folder"
+      },
       "Shared": {
         "$path": "src/shared"
       }
@@ -12,6 +15,12 @@
     "ServerScriptService": {
       "Server": {
         "$path": "src/server"
+      }
+    },
+
+    "ServerStorage": {
+      "BonkHammer": {
+        "$path": "src/tools/BonkHammer"
       }
     },
 
@@ -27,45 +36,20 @@
       "$properties": {
         "FilteringEnabled": true
       },
-      "Baseplate": {
-        "$className": "Part",
-        "$properties": {
-          "Anchored": true,
-          "Color": [
-            0.38823,
-            0.37254,
-            0.38823
-          ],
-          "Locked": true,
-          "Position": [
-            0,
-            -10,
-            0
-          ],
-          "Size": [
-            512,
-            20,
-            512
-          ]
-        }
+      "Spawns": {
+        "$className": "Folder"
+      },
+      "Arena": {
+        "$className": "Folder"
       }
     },
+
     "Lighting": {
       "$properties": {
-        "Ambient": [
-          0,
-          0,
-          0
-        ],
+        "Ambient": [0.3, 0.3, 0.3],
         "Brightness": 2,
         "GlobalShadows": true,
-        "Outlines": false,
         "Technology": "Voxel"
-      }
-    },
-    "SoundService": {
-      "$properties": {
-        "RespectFilteringEnabled": true
       }
     }
   }
