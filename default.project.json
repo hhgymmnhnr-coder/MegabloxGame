@@ -45,7 +45,26 @@
     "Workspace": {
       "$properties": { "FilteringEnabled": true },
       "Spawns": { "$className": "Folder" },
-      "Arena": { "$className": "Folder" }
+      "Arena": { "$className": "Folder" },
+      "LobbySpawn": {
+        "$className": "SpawnLocation",
+        "$properties": {
+          "Size": [6, 1, 6],
+          "Position": [0, 5, 0],
+          "Anchored": true,
+          "Enabled": true,
+          "Transparency": 0.5
+        }
+      },
+      "Floor": {
+        "$className": "Part",
+        "$properties": {
+          "Size": [90, 8, 90],
+          "Position": [0, 0, 0],
+          "Anchored": true,
+          "Color": [0.929, 0.835, 0.314]
+        }
+      }
     },
 
     "Lighting": {
