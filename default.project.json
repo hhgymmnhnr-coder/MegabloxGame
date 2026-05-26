@@ -9,7 +9,8 @@
     },
 
     "ServerScriptService": {
-      "Server": { "$path": "src/server" }
+      "GameServer": { "$path": "src/server/GameServer.server.luau" },
+      "MapGenerator": { "$path": "src/server/MapGenerator.server.luau" }
     },
 
     "ServerStorage": {
@@ -38,7 +39,7 @@
 
     "StarterPlayer": {
       "StarterPlayerScripts": {
-        "Client": { "$path": "src/client" }
+        "GameClient": { "$path": "src/client/GameClient.client.luau" }
       }
     },
 

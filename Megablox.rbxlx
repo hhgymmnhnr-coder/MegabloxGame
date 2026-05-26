@@ -48,7 +48,7 @@ return Config
     </Properties>
     <Item class="Script" referent="6">
       <Properties>
-        <string name="Name">Server</string>
+        <string name="Name">GameServer</string>
         <token name="RunContext">0</token>
         <string name="Source"><![CDATA[local Players = game:GetService("Players")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
@@ -165,11 +165,12 @@ task.spawn(function()
 end)
 ]]></string>
       </Properties>
-      <Item class="Script" referent="7">
-        <Properties>
-          <string name="Name">MapGenerator</string>
-          <token name="RunContext">0</token>
-          <string name="Source"><![CDATA[local arena = workspace:WaitForChild("Arena")
+    </Item>
+    <Item class="Script" referent="7">
+      <Properties>
+        <string name="Name">MapGenerator</string>
+        <token name="RunContext">0</token>
+        <string name="Source"><![CDATA[local arena = workspace:WaitForChild("Arena")
 local spawns = workspace:WaitForChild("Spawns")
 local RunService = game:GetService("RunService")
 
@@ -382,8 +383,7 @@ end)
 
 print("[Megablox] Map desert loaded ✓")
 ]]></string>
-        </Properties>
-      </Item>
+      </Properties>
     </Item>
   </Item>
   <Item class="ServerStorage" referent="8">
@@ -481,7 +481,7 @@ end)
       </Properties>
       <Item class="LocalScript" referent="14">
         <Properties>
-          <string name="Name">Client</string>
+          <string name="Name">GameClient</string>
           <string name="Source"><![CDATA[local Players = game:GetService("Players")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
