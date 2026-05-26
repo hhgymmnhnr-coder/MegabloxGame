@@ -4,44 +4,49 @@
     "$className": "DataModel",
 
     "ReplicatedStorage": {
-      "Events": {
-        "$className": "Folder"
-      },
-      "Shared": {
-        "$path": "src/shared"
-      }
+      "Events": { "$className": "Folder" },
+      "Shared": { "$path": "src/shared" }
     },
 
     "ServerScriptService": {
-      "Server": {
-        "$path": "src/server"
-      }
+      "Server": { "$path": "src/server" }
     },
 
     "ServerStorage": {
       "BonkHammer": {
-        "$path": "src/tools/BonkHammer"
+        "$className": "Tool",
+        "$properties": {
+          "ToolTip": "Bonk !",
+          "GripPos": [0, -1.5, 0],
+          "GripForward": [0, 0, -1],
+          "GripUp": [0, 1, 0]
+        },
+        "Handle": {
+          "$className": "Part",
+          "$properties": {
+            "Size": [0.8, 4, 0.8],
+            "BrickColor": "Bright red",
+            "Material": "SmoothPlastic",
+            "Anchored": false
+          }
+        },
+        "HammerScript": {
+          "$className": "LocalScript",
+          "$path": "src/tools/BonkHammer/hammer.client.luau"
+        }
       }
     },
 
     "StarterPlayer": {
       "StarterPlayerScripts": {
-        "Client": {
-          "$path": "src/client"
-        }
+        "Client": { "$path": "src/client" }
       }
     },
 
     "Workspace": {
-      "$properties": {
-        "FilteringEnabled": true
-      },
-      "Spawns": {
-        "$className": "Folder"
-      },
-      "Arena": {
-        "$className": "Folder"
-      }
+      "$properties": { "FilteringEnabled": true },
+      "Spawns": { "$className": "Folder" },
+      "Arena": { "$className": "Folder" }
     },
 
     "Lighting": {

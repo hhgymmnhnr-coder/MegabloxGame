@@ -95,7 +95,7 @@ Players.PlayerAdded:Connect(function(player)
 		local hum = char:WaitForChild("Humanoid")
 		hum.Died:Connect(function()
 			if roundActive then
-				PlayerDied:FireServer()
+				removeAlive(player)
 			end
 		end)
 	end)
