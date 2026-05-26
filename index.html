@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MegabloxGame 🎮</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Canvas 3D -->
+  <canvas id="game-canvas"></canvas>
+
+  <!-- Crosshair -->
+  <div id="crosshair"></div>
+
+  <!-- HUD -->
+  <div id="hud">
+    <div class="title">🟨 MegabloxGame</div>
+    <div id="hud-pos">X:0  Y:0  Z:0</div>
+    <div id="hud-block">Bloc: Herbe</div>
+    <div id="hud-view">3ème personne (V)</div>
+    <div style="margin-top:8px; font-size:11px; color:#aaa;">
+      WASD = Bouger | ESPACE = Sauter<br/>
+      Clic gauche = Casser | Clic droit = Placer<br/>
+      Molette / 1-7 = Changer de bloc | V = Vue
+    </div>
+  </div>
+
+  <!-- Hotbar -->
+  <div id="hotbar"></div>
+
+  <!-- Overlay de démarrage -->
+  <div id="overlay">
+    <h1>🟨 MEGABLOX</h1>
+    <p>Un monde de blocs t'attend !</p>
+    <div class="controls-list">
+      <span>WASD</span> Déplacer &nbsp;&nbsp; <span>ESPACE</span> Sauter<br/>
+      <span>Clic gauche</span> Casser un bloc &nbsp;&nbsp; <span>Clic droit</span> Placer un bloc<br/>
+      <span>Molette</span> ou <span>1–7</span> Changer de bloc &nbsp;&nbsp; <span>V</span> Changer de vue<br/>
+      <span>ESC</span> Libérer la souris
+    </div>
+    <button id="play-btn">▶ JOUER</button>
+  </div>
+
+  <!-- Three.js via CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+
+  <!-- Scripts du jeu -->
+  <script src="js/world.js"></script>
+  <script src="js/player.js"></script>
+  <script src="js/game.js"></script>
+
+</body>
+</html>

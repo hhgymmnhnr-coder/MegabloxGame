@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "MegabloxGame",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "3456", "--directory", "C:\\Users\\Utilisateur\\Desktop\\MegabloxGame"],
+      "port": 3456
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  overflow: hidden;
+  font-family: 'Arial', sans-serif;
+}
+
+#game-canvas {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Crosshair */
+#crosshair {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  pointer-events: none;
+  z-index: 100;
+}
+#crosshair::before, #crosshair::after {
+  content: '';
+  position: absolute;
+  background: rgba(255,255,255,0.9);
+  border-radius: 2px;
+}
+#crosshair::before {
+  width: 2px;
+  height: 20px;
+  left: 9px;
+  top: 0;
+}
+#crosshair::after {
+  width: 20px;
+  height: 2px;
+  left: 0;
+  top: 9px;
+}
+
+/* Hotbar */
+#hotbar {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 6px;
+  z-index: 100;
+}
+.hotbar-slot {
+  width: 52px;
+  height: 52px;
+  border: 3px solid rgba(255,255,255,0.3);
+  border-radius: 6px;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: border-color 0.1s;
+  flex-direction: column;
+  gap: 3px;
+}
+.hotbar-slot.active {
+  border-color: #fff;
+  background: rgba(255,255,255,0.15);
+}
+.hotbar-slot .block-icon {
+  width: 28px;
+  height: 28px;
+  border-radius: 3px;
+  border: 1px solid rgba(0,0,0,0.4);
+}
+.hotbar-slot .block-label {
+  font-size: 8px;
+  color: #fff;
+  text-align: center;
+}
+
+/* HUD */
+#hud {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  color: #fff;
+  font-size: 13px;
+  text-shadow: 1px 1px 2px #000;
+  z-index: 100;
+  line-height: 1.8;
+}
+#hud .title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffcc00;
+  margin-bottom: 6px;
+}
+
+/* Health bar */
+#health-bar {
+  position: fixed;
+  bottom: 90px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 4px;
+  z-index: 100;
+}
+.heart {
+  font-size: 20px;
+  filter: drop-shadow(0 0 3px #f00);
+}
+
+/* Pointer lock overlay */
+#overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.85);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 200;
+  color: #fff;
+}
+#overlay h1 {
+  font-size: 52px;
+  font-weight: 900;
+  color: #ffcc00;
+  text-shadow: 3px 3px 0 #e65c00;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+#overlay p {
+  font-size: 18px;
+  color: #ccc;
+  margin-bottom: 30px;
+}
+#overlay .controls-list {
+  font-size: 14px;
+  color: #aaa;
+  text-align: center;
+  line-height: 2;
+  margin-bottom: 30px;
+}
+#overlay .controls-list span {
+  background: #333;
+  padding: 2px 8px;
+  border-radius: 4px;
+  color: #fff;
+  font-family: monospace;
+}
+#play-btn {
+  background: #ffcc00;
+  color: #000;
+  border: none;
+  padding: 14px 50px;
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.1s, background 0.1s;
+  letter-spacing: 1px;
+}
+#play-btn:hover {
+  background: #ffd633;
+  transform: scale(1.05);
+}
