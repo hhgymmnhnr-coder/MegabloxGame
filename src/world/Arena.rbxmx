@@ -1,0 +1,5275 @@
+<?xml version='1.0' encoding='utf-8'?>
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.roblox.com/roblox.xsd" version="4">
+  <Item class="Model" referent="RBXC8CA8E0F118A4D5A88F2F8A9A5921F1B">
+    <Properties>
+      <string name="Name">Arena</string>
+    </Properties>
+    <Item class="Part" referent="RBX88C0D5B613DE43729BE878CBBE5AAF07">
+      <Properties>
+        <string name="Name">Floor</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>90</X>
+          <Y>8</Y>
+          <Z>90</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>1.000</R>
+          <G>0.784</G>
+          <B>0.314</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX0E5A7B589AF4436EAA57B090DCF2E6AC">
+      <Properties>
+        <string name="Name">Tile</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-38</X>
+          <Y>4.2</Y>
+          <Z>-1</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>10</X>
+          <Y>0.4</Y>
+          <Z>10</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.706</R>
+          <G>0.510</G>
+          <B>0.235</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX039540E66CC543C5B06ECEAF6EA60DBA">
+      <Properties>
+        <string name="Name">Tile</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-13</X>
+          <Y>4.2</Y>
+          <Z>-34</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>10</X>
+          <Y>0.4</Y>
+          <Z>10</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.706</R>
+          <G>0.510</G>
+          <B>0.235</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX9463BE6C54F746B2A11553264D7F5957">
+      <Properties>
+        <string name="Name">Tile</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-34</X>
+          <Y>4.2</Y>
+          <Z>22</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>10</X>
+          <Y>0.4</Y>
+          <Z>10</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.706</R>
+          <G>0.510</G>
+          <B>0.235</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXF3A60D90940749ED81092ABB60B7F5D6">
+      <Properties>
+        <string name="Name">Tile</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-50</X>
+          <Y>4.2</Y>
+          <Z>-13</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>10</X>
+          <Y>0.4</Y>
+          <Z>10</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.706</R>
+          <G>0.510</G>
+          <B>0.235</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX4C87E20EAB694194A772CDEC5D035407">
+      <Properties>
+        <string name="Name">Tile</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>50</X>
+          <Y>4.2</Y>
+          <Z>-46</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>10</X>
+          <Y>0.4</Y>
+          <Z>10</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.706</R>
+          <G>0.510</G>
+          <B>0.235</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX3CBB1EE8077649A29EF7ACA53ACEE2CB">
+      <Properties>
+        <string name="Name">Tile</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-10</X>
+          <Y>4.2</Y>
+          <Z>23</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>10</X>
+          <Y>0.4</Y>
+          <Z>10</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.706</R>
+          <G>0.510</G>
+          <B>0.235</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX41E91ED298A54E649A80B118D308DC4E">
+      <Properties>
+        <string name="Name">Tile</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>38</X>
+          <Y>4.2</Y>
+          <Z>-2</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>10</X>
+          <Y>0.4</Y>
+          <Z>10</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.706</R>
+          <G>0.510</G>
+          <B>0.235</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXA04392F0C2A34A92891B68DFB1D60766">
+      <Properties>
+        <string name="Name">Tile</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-23</X>
+          <Y>4.2</Y>
+          <Z>12</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>10</X>
+          <Y>0.4</Y>
+          <Z>10</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.706</R>
+          <G>0.510</G>
+          <B>0.235</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX6C2950B1864D47809D8ABCB11F83D5FC">
+      <Properties>
+        <string name="Name">Tile</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-25</X>
+          <Y>4.2</Y>
+          <Z>10</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>10</X>
+          <Y>0.4</Y>
+          <Z>10</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.706</R>
+          <G>0.510</G>
+          <B>0.235</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX02510AAAB9B549C1A6D4854E1DAFC279">
+      <Properties>
+        <string name="Name">Tile</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-35</X>
+          <Y>4.2</Y>
+          <Z>-36</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>10</X>
+          <Y>0.4</Y>
+          <Z>10</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.706</R>
+          <G>0.510</G>
+          <B>0.235</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX709A880CFA604629995AFF4233780DB3">
+      <Properties>
+        <string name="Name">Tile</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>14</X>
+          <Y>4.2</Y>
+          <Z>-2</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>10</X>
+          <Y>0.4</Y>
+          <Z>10</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.706</R>
+          <G>0.510</G>
+          <B>0.235</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXE266C49AB0DF4A5A85707B72818F97E4">
+      <Properties>
+        <string name="Name">Tile</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>38</X>
+          <Y>4.2</Y>
+          <Z>-35</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>10</X>
+          <Y>0.4</Y>
+          <Z>10</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.706</R>
+          <G>0.510</G>
+          <B>0.235</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXB10595F8BF494972A63E6E36B2A10506">
+      <Properties>
+        <string name="Name">Tile</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-34</X>
+          <Y>4.2</Y>
+          <Z>2</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>10</X>
+          <Y>0.4</Y>
+          <Z>10</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.706</R>
+          <G>0.510</G>
+          <B>0.235</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX20D3D604A4A74B2EB0D8B38950AB2D8E">
+      <Properties>
+        <string name="Name">Tile</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>14</X>
+          <Y>4.2</Y>
+          <Z>-14</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>10</X>
+          <Y>0.4</Y>
+          <Z>10</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.706</R>
+          <G>0.510</G>
+          <B>0.235</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX667EEBAF873D4AB8B98D2F581F3B74E4">
+      <Properties>
+        <string name="Name">Tile</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-49</X>
+          <Y>4.2</Y>
+          <Z>-2</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>10</X>
+          <Y>0.4</Y>
+          <Z>10</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.706</R>
+          <G>0.510</G>
+          <B>0.235</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX4B681829200644BB97A6C4C435676FA4">
+      <Properties>
+        <string name="Name">Tile</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-14</X>
+          <Y>4.2</Y>
+          <Z>24</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>10</X>
+          <Y>0.4</Y>
+          <Z>10</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.706</R>
+          <G>0.510</G>
+          <B>0.235</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX52F81515E263486582956CFE4ED0717B">
+      <Properties>
+        <string name="Name">Tile</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>36</X>
+          <Y>4.2</Y>
+          <Z>-24</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>10</X>
+          <Y>0.4</Y>
+          <Z>10</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.706</R>
+          <G>0.510</G>
+          <B>0.235</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXDEAA184A92E545C58890F82056186F46">
+      <Properties>
+        <string name="Name">Tile</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>11</X>
+          <Y>4.2</Y>
+          <Z>-2</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>10</X>
+          <Y>0.4</Y>
+          <Z>10</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.706</R>
+          <G>0.510</G>
+          <B>0.235</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXC00671C0905B4BD882EBBBEDD171B743">
+      <Properties>
+        <string name="Name">Tile</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-22</X>
+          <Y>4.2</Y>
+          <Z>-13</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>10</X>
+          <Y>0.4</Y>
+          <Z>10</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.706</R>
+          <G>0.510</G>
+          <B>0.235</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX2376DF2D09D94D7D9B10C8E86BBBF4D6">
+      <Properties>
+        <string name="Name">Tile</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>37</X>
+          <Y>4.2</Y>
+          <Z>2</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>10</X>
+          <Y>0.4</Y>
+          <Z>10</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.706</R>
+          <G>0.510</G>
+          <B>0.235</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXCE07A5B7D486478B845F99B058A1E9F8">
+      <Properties>
+        <string name="Name">Tile</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-12</X>
+          <Y>4.2</Y>
+          <Z>-49</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>10</X>
+          <Y>0.4</Y>
+          <Z>10</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.706</R>
+          <G>0.510</G>
+          <B>0.235</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX61C03887062E4ED5A9F8A6D547BF2A26">
+      <Properties>
+        <string name="Name">Tile</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-48</X>
+          <Y>4.2</Y>
+          <Z>24</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>10</X>
+          <Y>0.4</Y>
+          <Z>10</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.706</R>
+          <G>0.510</G>
+          <B>0.235</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXFEFAB900E5F645CC917941E7E1868EA9">
+      <Properties>
+        <string name="Name">Tile</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-37</X>
+          <Y>4.2</Y>
+          <Z>11</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>10</X>
+          <Y>0.4</Y>
+          <Z>10</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.706</R>
+          <G>0.510</G>
+          <B>0.235</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX042CB110D8194BE0A0BB8C645146CDAF">
+      <Properties>
+        <string name="Name">Tile</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>37</X>
+          <Y>4.2</Y>
+          <Z>35</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>10</X>
+          <Y>0.4</Y>
+          <Z>10</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.706</R>
+          <G>0.510</G>
+          <B>0.235</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX19DF6FA1AA6F40C8919D995CE8A31656">
+      <Properties>
+        <string name="Name">Tile</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-1</X>
+          <Y>4.2</Y>
+          <Z>-10</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>10</X>
+          <Y>0.4</Y>
+          <Z>10</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.706</R>
+          <G>0.510</G>
+          <B>0.235</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXF32BCB448D22457E83E451253F453EEC">
+      <Properties>
+        <string name="Name">Tile</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>48</X>
+          <Y>4.2</Y>
+          <Z>26</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>10</X>
+          <Y>0.4</Y>
+          <Z>10</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.706</R>
+          <G>0.510</G>
+          <B>0.235</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX7A1E45BB9C7846DF88EAF5106557B5C1">
+      <Properties>
+        <string name="Name">Tile</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>24</X>
+          <Y>4.2</Y>
+          <Z>-13</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>10</X>
+          <Y>0.4</Y>
+          <Z>10</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.706</R>
+          <G>0.510</G>
+          <B>0.235</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXA85B146454A44C20A87FD65752C73AD3">
+      <Properties>
+        <string name="Name">Tile</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>49</X>
+          <Y>4.2</Y>
+          <Z>-38</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>10</X>
+          <Y>0.4</Y>
+          <Z>10</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.706</R>
+          <G>0.510</G>
+          <B>0.235</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX898C1BC77496429DBBDBA8A07A818165">
+      <Properties>
+        <string name="Name">Tile</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-37</X>
+          <Y>4.2</Y>
+          <Z>-23</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>10</X>
+          <Y>0.4</Y>
+          <Z>10</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.706</R>
+          <G>0.510</G>
+          <B>0.235</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX38FB8E27A0B34ECEA2CB7A8D20B977B5">
+      <Properties>
+        <string name="Name">Tile</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-35</X>
+          <Y>4.2</Y>
+          <Z>26</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>10</X>
+          <Y>0.4</Y>
+          <Z>10</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.706</R>
+          <G>0.510</G>
+          <B>0.235</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX27F8CE1955D842E4943942FE9CFBBEB0">
+      <Properties>
+        <string name="Name">Cliff</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>52.0</X>
+          <Y>5</Y>
+          <Z>0.0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>16</X>
+          <Y>10</Y>
+          <Z>6</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.627</R>
+          <G>0.392</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX38D1C9176DD34BDEAC70F98EB2BCCDEA">
+      <Properties>
+        <string name="Name">CliffB</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>52.963462047744564</X>
+          <Y>9</Y>
+          <Z>12.330805201343184</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>8</X>
+          <Y>14</Y>
+          <Z>4</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.784</R>
+          <G>0.686</G>
+          <B>0.471</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX5796761693F940928D4D1051219BEC98">
+      <Properties>
+        <string name="Name">Cliff</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>36.76955262170048</X>
+          <Y>5</Y>
+          <Z>36.76955262170048</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>16</X>
+          <Y>10</Y>
+          <Z>6</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.627</R>
+          <G>0.392</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXE84DB46CE24D4D6BB8FCF63EB2551A5F">
+      <Properties>
+        <string name="Name">CliffB</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>30.731627193716417</X>
+          <Y>9</Y>
+          <Z>45.34159201969046</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>8</X>
+          <Y>14</Y>
+          <Z>4</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.784</R>
+          <G>0.686</G>
+          <B>0.471</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX57C6059F39504227B9B0979B4EDA1ECA">
+      <Properties>
+        <string name="Name">Cliff</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>3.184081677783118e-15</X>
+          <Y>5</Y>
+          <Z>52.0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>16</X>
+          <Y>10</Y>
+          <Z>6</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.627</R>
+          <G>0.392</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX7092F360F16C4CC782101761B22452AA">
+      <Properties>
+        <string name="Name">CliffB</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-8.330805201343178</X>
+          <Y>9</Y>
+          <Z>52.963462047744564</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>8</X>
+          <Y>14</Y>
+          <Z>4</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.784</R>
+          <G>0.686</G>
+          <B>0.471</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX25F0B752B0834699877FE6456146B928">
+      <Properties>
+        <string name="Name">Cliff</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-36.76955262170047</X>
+          <Y>5</Y>
+          <Z>36.76955262170048</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>16</X>
+          <Y>10</Y>
+          <Z>6</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.627</R>
+          <G>0.392</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX6ECBF066E8204C62BB65B11780496D7B">
+      <Properties>
+        <string name="Name">CliffB</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-41.34159201969046</X>
+          <Y>9</Y>
+          <Z>30.73162719371641</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>8</X>
+          <Y>14</Y>
+          <Z>4</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.784</R>
+          <G>0.686</G>
+          <B>0.471</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX96107767676B437F8E5185AFD8617F23">
+      <Properties>
+        <string name="Name">Cliff</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-52.0</X>
+          <Y>5</Y>
+          <Z>6.368163355566236e-15</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>16</X>
+          <Y>10</Y>
+          <Z>6</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.627</R>
+          <G>0.392</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXE8AD92D349D3459C89AC5B4F2D52999C">
+      <Properties>
+        <string name="Name">CliffB</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-48.963462047744564</X>
+          <Y>9</Y>
+          <Z>-8.330805201343185</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>8</X>
+          <Y>14</Y>
+          <Z>4</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.784</R>
+          <G>0.686</G>
+          <B>0.471</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXBE2699E538C8499B8AC9DD102FB77D4E">
+      <Properties>
+        <string name="Name">Cliff</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-36.76955262170048</X>
+          <Y>5</Y>
+          <Z>-36.76955262170047</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>16</X>
+          <Y>10</Y>
+          <Z>6</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.627</R>
+          <G>0.392</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX0C6B72C6C2CC46ED88B1EDEA3AED7267">
+      <Properties>
+        <string name="Name">CliffB</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-26.73162719371641</X>
+          <Y>9</Y>
+          <Z>-41.34159201969046</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>8</X>
+          <Y>14</Y>
+          <Z>4</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.784</R>
+          <G>0.686</G>
+          <B>0.471</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXB9BEED8B9011490F824FF95542C8AE46">
+      <Properties>
+        <string name="Name">Cliff</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-9.552245033349354e-15</X>
+          <Y>5</Y>
+          <Z>-52.0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>16</X>
+          <Y>10</Y>
+          <Z>6</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.627</R>
+          <G>0.392</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXE71DD56F0AA6495C9980EBFB38EEAAB7">
+      <Properties>
+        <string name="Name">CliffB</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>12.330805201343184</X>
+          <Y>9</Y>
+          <Z>-48.963462047744564</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>8</X>
+          <Y>14</Y>
+          <Z>4</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.784</R>
+          <G>0.686</G>
+          <B>0.471</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXA648A6BE955B40ED862984D95AA4948D">
+      <Properties>
+        <string name="Name">Cliff</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>36.76955262170046</X>
+          <Y>5</Y>
+          <Z>-36.76955262170048</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>16</X>
+          <Y>10</Y>
+          <Z>6</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.627</R>
+          <G>0.392</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX81401BA1DDC64047BCF9B13E957F9B96">
+      <Properties>
+        <string name="Name">CliffB</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>45.34159201969046</X>
+          <Y>9</Y>
+          <Z>-26.731627193716417</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>8</X>
+          <Y>14</Y>
+          <Z>4</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.784</R>
+          <G>0.686</G>
+          <B>0.471</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXE2A21D16CF0146C89AE6AE91C4BCB21C">
+      <Properties>
+        <string name="Name">Platform</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>50</X>
+          <Y>18</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>24</X>
+          <Y>4</Y>
+          <Z>24</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.824</R>
+          <G>0.725</G>
+          <B>0.392</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX631A0648F3184D74AA75CBE8BCC012E5">
+      <Properties>
+        <string name="Name">PlatSurf</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>50</X>
+          <Y>20.25</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>22</X>
+          <Y>0.5</Y>
+          <Z>22</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>1.000</R>
+          <G>0.784</G>
+          <B>0.314</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX0B8DDE948B4746718A8550B2BD815A20">
+      <Properties>
+        <string name="Name">PlatEdge</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0.5</float>
+        <CoordinateFrame name="CFrame">
+          <X>50</X>
+          <Y>20.5</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>24.5</X>
+          <Y>0.6</Y>
+          <Z>24.5</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>1.000</R>
+          <G>0.549</G>
+          <B>0.000</B>
+        </Color3>
+        <token name="Material">288</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXED96D13BE49648DCB6F4B2DAB1A187ED">
+      <Properties>
+        <string name="Name">Platform</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-50</X>
+          <Y>18</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>24</X>
+          <Y>4</Y>
+          <Z>24</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.824</R>
+          <G>0.725</G>
+          <B>0.392</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX039FC32AA8334032B099B1AC1C17EB32">
+      <Properties>
+        <string name="Name">PlatSurf</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-50</X>
+          <Y>20.25</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>22</X>
+          <Y>0.5</Y>
+          <Z>22</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>1.000</R>
+          <G>0.784</G>
+          <B>0.314</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX0EF1EBC86D984BCCBF8D9412F70F9181">
+      <Properties>
+        <string name="Name">PlatEdge</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0.5</float>
+        <CoordinateFrame name="CFrame">
+          <X>-50</X>
+          <Y>20.5</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>24.5</X>
+          <Y>0.6</Y>
+          <Z>24.5</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>1.000</R>
+          <G>0.549</G>
+          <B>0.000</B>
+        </Color3>
+        <token name="Material">288</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX129E5712591B4A47B45F17FF8E87B8B3">
+      <Properties>
+        <string name="Name">Platform</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>18</Y>
+          <Z>50</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>24</X>
+          <Y>4</Y>
+          <Z>24</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.824</R>
+          <G>0.725</G>
+          <B>0.392</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX19827C061516426E9B870270CB0EC1FD">
+      <Properties>
+        <string name="Name">PlatSurf</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>20.25</Y>
+          <Z>50</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>22</X>
+          <Y>0.5</Y>
+          <Z>22</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>1.000</R>
+          <G>0.784</G>
+          <B>0.314</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXCD4CA26EBB4A4571A3AD94445967B805">
+      <Properties>
+        <string name="Name">PlatEdge</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0.5</float>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>20.5</Y>
+          <Z>50</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>24.5</X>
+          <Y>0.6</Y>
+          <Z>24.5</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>1.000</R>
+          <G>0.549</G>
+          <B>0.000</B>
+        </Color3>
+        <token name="Material">288</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXA7C84E0BDE974ED985E45D5EF58535E5">
+      <Properties>
+        <string name="Name">Platform</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>18</Y>
+          <Z>-50</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>24</X>
+          <Y>4</Y>
+          <Z>24</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.824</R>
+          <G>0.725</G>
+          <B>0.392</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX00DD978047DE456B8632F2E511BE68FD">
+      <Properties>
+        <string name="Name">PlatSurf</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>20.25</Y>
+          <Z>-50</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>22</X>
+          <Y>0.5</Y>
+          <Z>22</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>1.000</R>
+          <G>0.784</G>
+          <B>0.314</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXFAA13354200B4053A9D808664D8A92BB">
+      <Properties>
+        <string name="Name">PlatEdge</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0.5</float>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>20.5</Y>
+          <Z>-50</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>24.5</X>
+          <Y>0.6</Y>
+          <Z>24.5</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>1.000</R>
+          <G>0.549</G>
+          <B>0.000</B>
+        </Color3>
+        <token name="Material">288</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX6E772D09E3A748FA8C9EA7932BBBAE22">
+      <Properties>
+        <string name="Name">HighPlat</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>55</X>
+          <Y>32</Y>
+          <Z>55</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>16</X>
+          <Y>3</Y>
+          <Z>16</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.784</R>
+          <G>0.686</G>
+          <B>0.471</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXF37A577B3A454B3FA27202D66F4EC013">
+      <Properties>
+        <string name="Name">HighSurf</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>55</X>
+          <Y>33.7</Y>
+          <Z>55</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>15</X>
+          <Y>0.4</Y>
+          <Z>15</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>1.000</R>
+          <G>0.784</G>
+          <B>0.314</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX72F7431F6F494A128ADEEBADFC7CFE90">
+      <Properties>
+        <string name="Name">HighEdge</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0.6</float>
+        <CoordinateFrame name="CFrame">
+          <X>55</X>
+          <Y>34.0</Y>
+          <Z>55</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>16.5</X>
+          <Y>0.5</Y>
+          <Z>16.5</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.863</R>
+          <G>0.196</G>
+          <B>0.196</B>
+        </Color3>
+        <token name="Material">288</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXF65388C6192247F4AB1EC88234286BE8">
+      <Properties>
+        <string name="Name">HighPlat</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-55</X>
+          <Y>32</Y>
+          <Z>55</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>16</X>
+          <Y>3</Y>
+          <Z>16</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.784</R>
+          <G>0.686</G>
+          <B>0.471</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX6FB7893AC9F645239D98EF54A1AABC1C">
+      <Properties>
+        <string name="Name">HighSurf</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-55</X>
+          <Y>33.7</Y>
+          <Z>55</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>15</X>
+          <Y>0.4</Y>
+          <Z>15</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>1.000</R>
+          <G>0.784</G>
+          <B>0.314</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX8C343BE0CC0649059A568E81993AF7B7">
+      <Properties>
+        <string name="Name">HighEdge</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0.6</float>
+        <CoordinateFrame name="CFrame">
+          <X>-55</X>
+          <Y>34.0</Y>
+          <Z>55</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>16.5</X>
+          <Y>0.5</Y>
+          <Z>16.5</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.863</R>
+          <G>0.196</G>
+          <B>0.196</B>
+        </Color3>
+        <token name="Material">288</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX418556CEB77442D9A742FE8F07461F68">
+      <Properties>
+        <string name="Name">HighPlat</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>55</X>
+          <Y>32</Y>
+          <Z>-55</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>16</X>
+          <Y>3</Y>
+          <Z>16</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.784</R>
+          <G>0.686</G>
+          <B>0.471</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXBEF7377C87E149B2A6CC3846DC4F6442">
+      <Properties>
+        <string name="Name">HighSurf</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>55</X>
+          <Y>33.7</Y>
+          <Z>-55</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>15</X>
+          <Y>0.4</Y>
+          <Z>15</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>1.000</R>
+          <G>0.784</G>
+          <B>0.314</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXC5F76A87C2A84DA29022F9F6489A3714">
+      <Properties>
+        <string name="Name">HighEdge</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0.6</float>
+        <CoordinateFrame name="CFrame">
+          <X>55</X>
+          <Y>34.0</Y>
+          <Z>-55</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>16.5</X>
+          <Y>0.5</Y>
+          <Z>16.5</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.863</R>
+          <G>0.196</G>
+          <B>0.196</B>
+        </Color3>
+        <token name="Material">288</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX3E2754D4D7FC44B5BC98D0136A7CDDA1">
+      <Properties>
+        <string name="Name">HighPlat</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-55</X>
+          <Y>32</Y>
+          <Z>-55</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>16</X>
+          <Y>3</Y>
+          <Z>16</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.784</R>
+          <G>0.686</G>
+          <B>0.471</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXF69451454C384C8F900CCA5CF41CC83F">
+      <Properties>
+        <string name="Name">HighSurf</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-55</X>
+          <Y>33.7</Y>
+          <Z>-55</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>15</X>
+          <Y>0.4</Y>
+          <Z>15</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>1.000</R>
+          <G>0.784</G>
+          <B>0.314</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX7138F3DF9F584A9EB1C54E31C74CAB39">
+      <Properties>
+        <string name="Name">HighEdge</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0.6</float>
+        <CoordinateFrame name="CFrame">
+          <X>-55</X>
+          <Y>34.0</Y>
+          <Z>-55</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>16.5</X>
+          <Y>0.5</Y>
+          <Z>16.5</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.863</R>
+          <G>0.196</G>
+          <B>0.196</B>
+        </Color3>
+        <token name="Material">288</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX35C10CA16EDD479ABB1D811F29029482">
+      <Properties>
+        <string name="Name">TowerBase</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>15</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>8</X>
+          <Y>22</Y>
+          <Z>8</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.627</R>
+          <G>0.392</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXFEB6B361B5364FB5BB74D5372250C555">
+      <Properties>
+        <string name="Name">TowerRing</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>26.5</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>10</X>
+          <Y>1</Y>
+          <Z>10</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>1.000</R>
+          <G>0.549</G>
+          <B>0.000</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXEFD74776D9A149C393F0599E9D5797D5">
+      <Properties>
+        <string name="Name">TowerTop</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>28</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>10</X>
+          <Y>3</Y>
+          <Z>10</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.824</R>
+          <G>0.725</G>
+          <B>0.392</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX8521137FA89146D6BBD395C72940A470">
+      <Properties>
+        <string name="Name">TowerGlow</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0.4</float>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>29.75</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>11</X>
+          <Y>0.5</Y>
+          <Z>11</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>1.000</R>
+          <G>0.549</G>
+          <B>0.000</B>
+        </Color3>
+        <token name="Material">288</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX2744C2FF4DC74058819D6CC24C583F88">
+      <Properties>
+        <string name="Name">Pillar</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>28</X>
+          <Y>11</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>5</X>
+          <Y>14</Y>
+          <Z>5</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.784</R>
+          <G>0.686</G>
+          <B>0.471</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX483685C18D7647D98EB65DDB57DF5A7F">
+      <Properties>
+        <string name="Name">PillarTop</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>28</X>
+          <Y>18.75</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>7</X>
+          <Y>1.5</Y>
+          <Z>7</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.824</R>
+          <G>0.725</G>
+          <B>0.392</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXC2B388C0D0B54916A50461F6A45B5036">
+      <Properties>
+        <string name="Name">PillarGlow</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0.5</float>
+        <CoordinateFrame name="CFrame">
+          <X>28</X>
+          <Y>19.75</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>7.5</X>
+          <Y>0.5</Y>
+          <Z>7.5</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>1.000</R>
+          <G>0.549</G>
+          <B>0.000</B>
+        </Color3>
+        <token name="Material">288</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX0EBAD1B97CF74B5B978D38F2E9C16830">
+      <Properties>
+        <string name="Name">Pillar</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-28</X>
+          <Y>11</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>5</X>
+          <Y>14</Y>
+          <Z>5</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.784</R>
+          <G>0.686</G>
+          <B>0.471</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX38A29FED36824168AEE79464083345C5">
+      <Properties>
+        <string name="Name">PillarTop</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-28</X>
+          <Y>18.75</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>7</X>
+          <Y>1.5</Y>
+          <Z>7</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.824</R>
+          <G>0.725</G>
+          <B>0.392</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX723DB09581EB4C18B963D5E948BB2CAC">
+      <Properties>
+        <string name="Name">PillarGlow</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0.5</float>
+        <CoordinateFrame name="CFrame">
+          <X>-28</X>
+          <Y>19.75</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>7.5</X>
+          <Y>0.5</Y>
+          <Z>7.5</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>1.000</R>
+          <G>0.549</G>
+          <B>0.000</B>
+        </Color3>
+        <token name="Material">288</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXCEFA9C2959D449D7A251B2CD4DD84F4D">
+      <Properties>
+        <string name="Name">Pillar</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>11</Y>
+          <Z>28</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>5</X>
+          <Y>14</Y>
+          <Z>5</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.784</R>
+          <G>0.686</G>
+          <B>0.471</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXC53323BCD0454A1CBFC4D2A64DDB881F">
+      <Properties>
+        <string name="Name">PillarTop</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>18.75</Y>
+          <Z>28</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>7</X>
+          <Y>1.5</Y>
+          <Z>7</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.824</R>
+          <G>0.725</G>
+          <B>0.392</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX4D8A09F5CA504AD986CC1AEBADC38665">
+      <Properties>
+        <string name="Name">PillarGlow</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0.5</float>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>19.75</Y>
+          <Z>28</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>7.5</X>
+          <Y>0.5</Y>
+          <Z>7.5</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>1.000</R>
+          <G>0.549</G>
+          <B>0.000</B>
+        </Color3>
+        <token name="Material">288</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX991879EB7E4741348743B70187E58045">
+      <Properties>
+        <string name="Name">Pillar</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>11</Y>
+          <Z>-28</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>5</X>
+          <Y>14</Y>
+          <Z>5</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.784</R>
+          <G>0.686</G>
+          <B>0.471</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX67769D73F680465E9F6B9C843D485D5C">
+      <Properties>
+        <string name="Name">PillarTop</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>18.75</Y>
+          <Z>-28</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>7</X>
+          <Y>1.5</Y>
+          <Z>7</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.824</R>
+          <G>0.725</G>
+          <B>0.392</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXF9E77C44C6AF4512B8A475A1A9EBABD6">
+      <Properties>
+        <string name="Name">PillarGlow</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0.5</float>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>19.75</Y>
+          <Z>-28</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>7.5</X>
+          <Y>0.5</Y>
+          <Z>7.5</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>1.000</R>
+          <G>0.549</G>
+          <B>0.000</B>
+        </Color3>
+        <token name="Material">288</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXF86F65AA3DA2464E94301301E6DDAE21">
+      <Properties>
+        <string name="Name">Dune</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>32</X>
+          <Y>7.5</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>22</X>
+          <Y>7</Y>
+          <Z>9</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.706</R>
+          <G>0.510</G>
+          <B>0.235</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXDF030B66100A40CDB85189598196DEDD">
+      <Properties>
+        <string name="Name">Dune</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-32</X>
+          <Y>7.5</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>22</X>
+          <Y>7</Y>
+          <Z>9</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.706</R>
+          <G>0.510</G>
+          <B>0.235</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXEF281DFDA21D401E8D989418F6706139">
+      <Properties>
+        <string name="Name">Dune</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>7.5</Y>
+          <Z>32</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>9</X>
+          <Y>7</Y>
+          <Z>22</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.706</R>
+          <G>0.510</G>
+          <B>0.235</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX9A4D4B4B280341FCB641B3FA5E420DC1">
+      <Properties>
+        <string name="Name">Dune</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>7.5</Y>
+          <Z>-32</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>9</X>
+          <Y>7</Y>
+          <Z>22</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.706</R>
+          <G>0.510</G>
+          <B>0.235</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXC1B394466047465B92DB27221DA6E608">
+      <Properties>
+        <string name="Name">Rock1</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>18</X>
+          <Y>5.8</Y>
+          <Z>18</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>4.8</X>
+          <Y>3.5999999999999996</Y>
+          <Z>4.2</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.784</R>
+          <G>0.686</G>
+          <B>0.471</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX536795A565CE4098B7F87FCD0133BDD1">
+      <Properties>
+        <string name="Name">Rock2</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>18.6</X>
+          <Y>6.4</Y>
+          <Z>18.6</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>3.0</X>
+          <Y>4.8</Y>
+          <Z>2.4</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.627</R>
+          <G>0.392</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX8A531C6369F544759B86B04777E756BF">
+      <Properties>
+        <string name="Name">Rock3</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>17.64</X>
+          <Y>8.2</Y>
+          <Z>18</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>3.5999999999999996</X>
+          <Y>1.7999999999999998</Y>
+          <Z>3.0</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.784</R>
+          <G>0.686</G>
+          <B>0.471</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXF4551B69CE8D47049255C37E56F3CB7D">
+      <Properties>
+        <string name="Name">Rock1</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-18</X>
+          <Y>5.5</Y>
+          <Z>18</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>4.0</X>
+          <Y>3.0</Y>
+          <Z>3.5</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.784</R>
+          <G>0.686</G>
+          <B>0.471</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX6F126A13E53F48A0B3AEC657D5350656">
+      <Properties>
+        <string name="Name">Rock2</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-17.5</X>
+          <Y>6.0</Y>
+          <Z>18.5</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>2.5</X>
+          <Y>4.0</Y>
+          <Z>2.0</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.627</R>
+          <G>0.392</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX94523BAA42544142A1909A012CE7CF52">
+      <Properties>
+        <string name="Name">Rock3</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-18.3</X>
+          <Y>7.5</Y>
+          <Z>18</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>3.0</X>
+          <Y>1.5</Y>
+          <Z>2.5</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.784</R>
+          <G>0.686</G>
+          <B>0.471</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXFCE8F7D6326A466A94775185765DA3F0">
+      <Properties>
+        <string name="Name">Rock1</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>18</X>
+          <Y>5.35</Y>
+          <Z>-18</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>3.6</X>
+          <Y>2.7</Y>
+          <Z>3.15</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.784</R>
+          <G>0.686</G>
+          <B>0.471</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXAD2991542189442696C453BDB346EC5C">
+      <Properties>
+        <string name="Name">Rock2</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>18.45</X>
+          <Y>5.8</Y>
+          <Z>-17.55</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>2.25</X>
+          <Y>3.6</Y>
+          <Z>1.8</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.627</R>
+          <G>0.392</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX3F58E0DF59E844E094996C00EB4DFFBD">
+      <Properties>
+        <string name="Name">Rock3</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>17.73</X>
+          <Y>7.15</Y>
+          <Z>-18</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>2.7</X>
+          <Y>1.35</Y>
+          <Z>2.25</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.784</R>
+          <G>0.686</G>
+          <B>0.471</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXCB8F78D5830C417FB6C4A36D84D0321F">
+      <Properties>
+        <string name="Name">Rock1</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-18</X>
+          <Y>5.65</Y>
+          <Z>-18</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>4.4</X>
+          <Y>3.3000000000000003</Y>
+          <Z>3.8500000000000005</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.784</R>
+          <G>0.686</G>
+          <B>0.471</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX20A424B0A7064996BF469DB9CB4694C8">
+      <Properties>
+        <string name="Name">Rock2</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-17.45</X>
+          <Y>6.2</Y>
+          <Z>-17.45</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>2.75</X>
+          <Y>4.4</Y>
+          <Z>2.2</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.627</R>
+          <G>0.392</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXA07A98B1358A4B579C829F6A43F20784">
+      <Properties>
+        <string name="Name">Rock3</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-18.33</X>
+          <Y>7.8500000000000005</Y>
+          <Z>-18</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>3.3000000000000003</X>
+          <Y>1.6500000000000001</Y>
+          <Z>2.75</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.784</R>
+          <G>0.686</G>
+          <B>0.471</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX0E49781F9F0A4B9D9ACC067970602887">
+      <Properties>
+        <string name="Name">CacTrunk</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>38</X>
+          <Y>6.996121380240097</Y>
+          <Z>12</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>1.2</X>
+          <Y>5.9922427604801936</Y>
+          <Z>1.2</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.157</R>
+          <G>0.627</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXA2CEB8DBFCDF41E5BDC8B62A2BD72590">
+      <Properties>
+        <string name="Name">CacArm1</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>40.5</X>
+          <Y>7.595345656288115</Y>
+          <Z>12</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>1.2</X>
+          <Y>2.5</Y>
+          <Z>1.2</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.157</R>
+          <G>0.627</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXC8396890D4A041D1BC05DFA2042637B8">
+      <Properties>
+        <string name="Name">CacArm1H</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>41.5</X>
+          <Y>8.595345656288115</Y>
+          <Z>12</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>1.2</X>
+          <Y>1.5</Y>
+          <Z>1.2</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.157</R>
+          <G>0.627</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX7461EC4D19D54F84A23C3E1775D11083">
+      <Properties>
+        <string name="Name">CacArm2</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>36</X>
+          <Y>8.194569932336135</Y>
+          <Z>12</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>1.2</X>
+          <Y>2</Y>
+          <Z>1.2</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.157</R>
+          <G>0.627</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX00DE8942DAD84FEBB6F6B52F67AD2F0B">
+      <Properties>
+        <string name="Name">CacArm2H</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>35</X>
+          <Y>8.394957794312127</Y>
+          <Z>12</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>1.2</X>
+          <Y>1.2</Y>
+          <Z>1.2</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.157</R>
+          <G>0.627</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX1722EE668A82492C8D80205E7C9D242C">
+      <Properties>
+        <string name="Name">CacTrunk</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-38</X>
+          <Y>6.529114345099137</Y>
+          <Z>-12</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>1.2</X>
+          <Y>5.058228690198274</Y>
+          <Z>1.2</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.157</R>
+          <G>0.627</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXD7C9F10F7814463B886AE70BF8A9C070">
+      <Properties>
+        <string name="Name">CacArm1</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-35.5</X>
+          <Y>7.0349372141189646</Y>
+          <Z>-12</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>1.2</X>
+          <Y>2.5</Y>
+          <Z>1.2</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.157</R>
+          <G>0.627</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX0DB456B822254754AB03AD6AF444FB11">
+      <Properties>
+        <string name="Name">CacArm1H</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-34.5</X>
+          <Y>8.034937214118965</Y>
+          <Z>-12</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>1.2</X>
+          <Y>1.5</Y>
+          <Z>1.2</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.157</R>
+          <G>0.627</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX4BF7F88597CF4441A4666EADCB5E7B46">
+      <Properties>
+        <string name="Name">CacArm2</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-40</X>
+          <Y>7.5407600831387915</Y>
+          <Z>-12</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>1.2</X>
+          <Y>2</Y>
+          <Z>1.2</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.157</R>
+          <G>0.627</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX7637A144FADE4DD0BAB6BF67DCA53B1E">
+      <Properties>
+        <string name="Name">CacArm2H</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-41</X>
+          <Y>7.787848648628879</Y>
+          <Z>-12</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>1.2</X>
+          <Y>1.2</Y>
+          <Z>1.2</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.157</R>
+          <G>0.627</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX16FC026BA85B4431A9EB158181FBE3BC">
+      <Properties>
+        <string name="Name">CacTrunk</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>12</X>
+          <Y>6.971078377613618</Y>
+          <Z>-38</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>1.2</X>
+          <Y>5.942156755227236</Y>
+          <Z>1.2</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.157</R>
+          <G>0.627</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXBB3101A269D84175A0AE08E17E580043">
+      <Properties>
+        <string name="Name">CacArm1</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>14.5</X>
+          <Y>7.565294053136341</Y>
+          <Z>-38</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>1.2</X>
+          <Y>2.5</Y>
+          <Z>1.2</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.157</R>
+          <G>0.627</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX6DD3379849AB4573BB66E9C7A66ADD76">
+      <Properties>
+        <string name="Name">CacArm1H</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>15.5</X>
+          <Y>8.565294053136341</Y>
+          <Z>-38</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>1.2</X>
+          <Y>1.5</Y>
+          <Z>1.2</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.157</R>
+          <G>0.627</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX27E338A20BED4283AA37114452E900D9">
+      <Properties>
+        <string name="Name">CacArm2</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>10</X>
+          <Y>8.159509728659065</Y>
+          <Z>-38</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>1.2</X>
+          <Y>2</Y>
+          <Z>1.2</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.157</R>
+          <G>0.627</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXB06F619EDD5E43BE97631404CEF6A915">
+      <Properties>
+        <string name="Name">CacArm2H</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>9</X>
+          <Y>8.362401890897704</Y>
+          <Z>-38</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>1.2</X>
+          <Y>1.2</Y>
+          <Z>1.2</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.157</R>
+          <G>0.627</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX18691F187B28453280712CB4642EAB37">
+      <Properties>
+        <string name="Name">CacTrunk</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-12</X>
+          <Y>6.860779702234498</Y>
+          <Z>38</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>1.2</X>
+          <Y>5.721559404468996</Y>
+          <Z>1.2</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.157</R>
+          <G>0.627</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX47C85EFAF0774CB2B2E24B696EDDFDBD">
+      <Properties>
+        <string name="Name">CacArm1</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-9.5</X>
+          <Y>7.4329356426813975</Y>
+          <Z>38</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>1.2</X>
+          <Y>2.5</Y>
+          <Z>1.2</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.157</R>
+          <G>0.627</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXBFF58CCB14A047C486031993AFFE3E74">
+      <Properties>
+        <string name="Name">CacArm1H</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-8.5</X>
+          <Y>8.432935642681397</Y>
+          <Z>38</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>1.2</X>
+          <Y>1.5</Y>
+          <Z>1.2</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.157</R>
+          <G>0.627</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX070EB8396EF449CF9766EAD7431BFE5E">
+      <Properties>
+        <string name="Name">CacArm2</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-14</X>
+          <Y>8.005091583128298</Y>
+          <Z>38</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>1.2</X>
+          <Y>2</Y>
+          <Z>1.2</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.157</R>
+          <G>0.627</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX4A0BFDC1CD4A47FF87898E28B2A4AC64">
+      <Properties>
+        <string name="Name">CacArm2H</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-15</X>
+          <Y>8.219013612904847</Y>
+          <Z>38</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>1.2</X>
+          <Y>1.2</Y>
+          <Z>1.2</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.157</R>
+          <G>0.627</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX6F146DE91D0E4CCA8B27691E326AB811">
+      <Properties>
+        <string name="Name">CacTrunk</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-38</X>
+          <Y>6.01148102194282</Y>
+          <Z>12</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>1.2</X>
+          <Y>4.02296204388564</Y>
+          <Z>1.2</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.157</R>
+          <G>0.627</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXCF4382B828864CDABAE4F97D32097976">
+      <Properties>
+        <string name="Name">CacArm1</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-35.5</X>
+          <Y>6.4137772263313835</Y>
+          <Z>12</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>1.2</X>
+          <Y>2.5</Y>
+          <Z>1.2</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.157</R>
+          <G>0.627</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXE01F2CBEE7464F4DBA972DDCD3A4031A">
+      <Properties>
+        <string name="Name">CacArm1H</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-34.5</X>
+          <Y>7.4137772263313835</Y>
+          <Z>12</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>1.2</X>
+          <Y>1.5</Y>
+          <Z>1.2</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.157</R>
+          <G>0.627</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX4AEA08055E7D4B2893991D8844EB77E8">
+      <Properties>
+        <string name="Name">CacArm2</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-40</X>
+          <Y>6.816073430719948</Y>
+          <Z>12</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>1.2</X>
+          <Y>2</Y>
+          <Z>1.2</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.157</R>
+          <G>0.627</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX1E972D7443934FF6AF6E0A79EFDDEF75">
+      <Properties>
+        <string name="Name">CacArm2H</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-41</X>
+          <Y>7.114925328525666</Y>
+          <Z>12</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>1.2</X>
+          <Y>1.2</Y>
+          <Z>1.2</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.157</R>
+          <G>0.627</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX547E8403A7954DCA850A9508ABD0D812">
+      <Properties>
+        <string name="Name">CacTrunk</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>38</X>
+          <Y>6.720721819360195</Y>
+          <Z>-12</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>1.2</X>
+          <Y>5.441443638720389</Y>
+          <Z>1.2</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.157</R>
+          <G>0.627</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX0612ABEE47D045F093FA3F790D501074">
+      <Properties>
+        <string name="Name">CacArm1</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>40.5</X>
+          <Y>7.264866183232233</Y>
+          <Z>-12</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>1.2</X>
+          <Y>2.5</Y>
+          <Z>1.2</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.157</R>
+          <G>0.627</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXFD54C1C4E8D547648A55D6931525D1D1">
+      <Properties>
+        <string name="Name">CacArm1H</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>41.5</X>
+          <Y>8.264866183232233</Y>
+          <Z>-12</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>1.2</X>
+          <Y>1.5</Y>
+          <Z>1.2</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.157</R>
+          <G>0.627</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXC43341CF385F43B9964349DB2CABAFE5">
+      <Properties>
+        <string name="Name">CacArm2</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>36</X>
+          <Y>7.809010547104272</Y>
+          <Z>-12</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>1.2</X>
+          <Y>2</Y>
+          <Z>1.2</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.157</R>
+          <G>0.627</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX8652513CAD74491C8AA21D903E947DB1">
+      <Properties>
+        <string name="Name">CacArm2H</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>35</X>
+          <Y>8.036938365168254</Y>
+          <Z>-12</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>1.2</X>
+          <Y>1.2</Y>
+          <Z>1.2</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.157</R>
+          <G>0.627</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX65BD5AE0A37540EFB2D1E98562DE1787">
+      <Properties>
+        <string name="Name">CacTrunk</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-12</X>
+          <Y>6.681710369026575</Y>
+          <Z>-38</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>1.2</X>
+          <Y>5.36342073805315</Y>
+          <Z>1.2</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.157</R>
+          <G>0.627</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX64094789344540978D5AA436E2C45B77">
+      <Properties>
+        <string name="Name">CacArm1</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-9.5</X>
+          <Y>7.21805244283189</Y>
+          <Z>-38</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>1.2</X>
+          <Y>2.5</Y>
+          <Z>1.2</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.157</R>
+          <G>0.627</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXF3E81C78DB2C456A930E04C756FDBAD6">
+      <Properties>
+        <string name="Name">CacArm1H</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-8.5</X>
+          <Y>8.21805244283189</Y>
+          <Z>-38</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>1.2</X>
+          <Y>1.5</Y>
+          <Z>1.2</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.157</R>
+          <G>0.627</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX862AFB504C00410994BB3F491D348865">
+      <Properties>
+        <string name="Name">CacArm2</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-14</X>
+          <Y>7.754394516637205</Y>
+          <Z>-38</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>1.2</X>
+          <Y>2</Y>
+          <Z>1.2</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.157</R>
+          <G>0.627</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX28B7D9DC008E46C5AF2B04C945301E92">
+      <Properties>
+        <string name="Name">CacArm2H</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>-15</X>
+          <Y>7.986223479734548</Y>
+          <Z>-38</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>1.2</X>
+          <Y>1.2</Y>
+          <Z>1.2</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.157</R>
+          <G>0.627</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXE2430B1853A84A81871B21AF6DE57BF0">
+      <Properties>
+        <string name="Name">CacTrunk</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>12</X>
+          <Y>6.536970330408796</Y>
+          <Z>38</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>1.2</X>
+          <Y>5.07394066081759</Y>
+          <Z>1.2</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.157</R>
+          <G>0.627</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXFC0E260B983A4D71A4F7EC11038ECA7D">
+      <Properties>
+        <string name="Name">CacArm1</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>14.5</X>
+          <Y>7.044364396490554</Y>
+          <Z>38</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>1.2</X>
+          <Y>2.5</Y>
+          <Z>1.2</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.157</R>
+          <G>0.627</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX34C187F3B89B459D92E244C966D37457">
+      <Properties>
+        <string name="Name">CacArm1H</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>15.5</X>
+          <Y>8.044364396490554</Y>
+          <Z>38</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>1.2</X>
+          <Y>1.5</Y>
+          <Z>1.2</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.157</R>
+          <G>0.627</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXBA8C3940FD7A48569EFE29E877FE390C">
+      <Properties>
+        <string name="Name">CacArm2</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>10</X>
+          <Y>7.551758462572312</Y>
+          <Z>38</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>1.2</X>
+          <Y>2</Y>
+          <Z>1.2</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.157</R>
+          <G>0.627</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX22AFED21800B4E128BF8563F911C4DD1">
+      <Properties>
+        <string name="Name">CacArm2H</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0</float>
+        <CoordinateFrame name="CFrame">
+          <X>9</X>
+          <Y>7.798061429531433</Y>
+          <Z>38</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>1.2</X>
+          <Y>1.2</Y>
+          <Z>1.2</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.157</R>
+          <G>0.627</G>
+          <B>0.157</B>
+        </Color3>
+        <token name="Material">256</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBX326E50F098DA4A1F88740DE9D56AA94B">
+      <Properties>
+        <string name="Name">MovPlat1</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0.1</float>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>44</Y>
+          <Z>70</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>16</X>
+          <Y>2.5</Y>
+          <Z>16</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.863</R>
+          <G>0.196</G>
+          <B>0.196</B>
+        </Color3>
+        <token name="Material">288</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXDA45C01AD4C949DBA3FF010B098C63E5">
+      <Properties>
+        <string name="Name">MovPlat2</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0.1</float>
+        <CoordinateFrame name="CFrame">
+          <X>70</X>
+          <Y>44</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>16</X>
+          <Y>2.5</Y>
+          <Z>16</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.863</R>
+          <G>0.196</G>
+          <B>0.196</B>
+        </Color3>
+        <token name="Material">288</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXBA263BE9561F4A31842F73BFF39134A8">
+      <Properties>
+        <string name="Name">MovPlat3</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0.1</float>
+        <CoordinateFrame name="CFrame">
+          <X>-70</X>
+          <Y>44</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>16</X>
+          <Y>2.5</Y>
+          <Z>16</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.863</R>
+          <G>0.196</G>
+          <B>0.196</B>
+        </Color3>
+        <token name="Material">288</token>
+      </Properties>
+    </Item>
+    <Item class="Part" referent="RBXD529D644C1E146DD824343ED2EE95EBD">
+      <Properties>
+        <string name="Name">MovPlat4</string>
+        <bool name="Anchored">true</bool>
+        <bool name="CastShadow">true</bool>
+        <float name="Transparency">0.1</float>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>26</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>12</X>
+          <Y>2</Y>
+          <Z>12</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>0.863</R>
+          <G>0.196</G>
+          <B>0.196</B>
+        </Color3>
+        <token name="Material">288</token>
+      </Properties>
+    </Item>
+    <Item class="SpawnLocation" referent="RBXA19F5B9097B64C02BDA455F5E4EFB6DB">
+      <Properties>
+        <string name="Name">Spawn</string>
+        <bool name="Anchored">true</bool>
+        <bool name="Enabled">true</bool>
+        <float name="Transparency">0.5</float>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>6</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>4</X>
+          <Y>0.5</Y>
+          <Z>4</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>1.0</R>
+          <G>0.55</G>
+          <B>0.0</B>
+        </Color3>
+      </Properties>
+    </Item>
+    <Item class="SpawnLocation" referent="RBX1ABB2DD055E9458AB7B52C2C4B00D4BD">
+      <Properties>
+        <string name="Name">Spawn</string>
+        <bool name="Anchored">true</bool>
+        <bool name="Enabled">false</bool>
+        <float name="Transparency">0.5</float>
+        <CoordinateFrame name="CFrame">
+          <X>22</X>
+          <Y>6</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>4</X>
+          <Y>0.5</Y>
+          <Z>4</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>1.0</R>
+          <G>0.55</G>
+          <B>0.0</B>
+        </Color3>
+      </Properties>
+    </Item>
+    <Item class="SpawnLocation" referent="RBXF7EE340162324247A38244166CA9B92C">
+      <Properties>
+        <string name="Name">Spawn</string>
+        <bool name="Anchored">true</bool>
+        <bool name="Enabled">false</bool>
+        <float name="Transparency">0.5</float>
+        <CoordinateFrame name="CFrame">
+          <X>-22</X>
+          <Y>6</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>4</X>
+          <Y>0.5</Y>
+          <Z>4</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>1.0</R>
+          <G>0.55</G>
+          <B>0.0</B>
+        </Color3>
+      </Properties>
+    </Item>
+    <Item class="SpawnLocation" referent="RBX2D243E530688402D8631E0C525AA5DA6">
+      <Properties>
+        <string name="Name">Spawn</string>
+        <bool name="Anchored">true</bool>
+        <bool name="Enabled">false</bool>
+        <float name="Transparency">0.5</float>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>6</Y>
+          <Z>22</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>4</X>
+          <Y>0.5</Y>
+          <Z>4</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>1.0</R>
+          <G>0.55</G>
+          <B>0.0</B>
+        </Color3>
+      </Properties>
+    </Item>
+    <Item class="SpawnLocation" referent="RBX6F95B559B9A9430BB73C519B125D76C6">
+      <Properties>
+        <string name="Name">Spawn</string>
+        <bool name="Anchored">true</bool>
+        <bool name="Enabled">false</bool>
+        <float name="Transparency">0.5</float>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>6</Y>
+          <Z>-22</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>4</X>
+          <Y>0.5</Y>
+          <Z>4</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>1.0</R>
+          <G>0.55</G>
+          <B>0.0</B>
+        </Color3>
+      </Properties>
+    </Item>
+    <Item class="SpawnLocation" referent="RBXDFCCD541A7D04642AE4B8F396F9E81B2">
+      <Properties>
+        <string name="Name">Spawn</string>
+        <bool name="Anchored">true</bool>
+        <bool name="Enabled">false</bool>
+        <float name="Transparency">0.5</float>
+        <CoordinateFrame name="CFrame">
+          <X>50</X>
+          <Y>22</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>4</X>
+          <Y>0.5</Y>
+          <Z>4</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>1.0</R>
+          <G>0.55</G>
+          <B>0.0</B>
+        </Color3>
+      </Properties>
+    </Item>
+    <Item class="SpawnLocation" referent="RBXAE8E4A8449E44E3CB61BF10C11CC686B">
+      <Properties>
+        <string name="Name">Spawn</string>
+        <bool name="Anchored">true</bool>
+        <bool name="Enabled">false</bool>
+        <float name="Transparency">0.5</float>
+        <CoordinateFrame name="CFrame">
+          <X>-50</X>
+          <Y>22</Y>
+          <Z>0</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>4</X>
+          <Y>0.5</Y>
+          <Z>4</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>1.0</R>
+          <G>0.55</G>
+          <B>0.0</B>
+        </Color3>
+      </Properties>
+    </Item>
+    <Item class="SpawnLocation" referent="RBX653AC422DB694587AA6AD5AC2C0363CD">
+      <Properties>
+        <string name="Name">Spawn</string>
+        <bool name="Anchored">true</bool>
+        <bool name="Enabled">false</bool>
+        <float name="Transparency">0.5</float>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>22</Y>
+          <Z>50</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>4</X>
+          <Y>0.5</Y>
+          <Z>4</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>1.0</R>
+          <G>0.55</G>
+          <B>0.0</B>
+        </Color3>
+      </Properties>
+    </Item>
+    <Item class="SpawnLocation" referent="RBX84024014C0E94732AB920576449A1C48">
+      <Properties>
+        <string name="Name">Spawn</string>
+        <bool name="Anchored">true</bool>
+        <bool name="Enabled">false</bool>
+        <float name="Transparency">0.5</float>
+        <CoordinateFrame name="CFrame">
+          <X>0</X>
+          <Y>22</Y>
+          <Z>-50</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>4</X>
+          <Y>0.5</Y>
+          <Z>4</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>1.0</R>
+          <G>0.55</G>
+          <B>0.0</B>
+        </Color3>
+      </Properties>
+    </Item>
+    <Item class="SpawnLocation" referent="RBX643263A45FAE4784A1FC0BE9B0CBDB5B">
+      <Properties>
+        <string name="Name">Spawn</string>
+        <bool name="Anchored">true</bool>
+        <bool name="Enabled">false</bool>
+        <float name="Transparency">0.5</float>
+        <CoordinateFrame name="CFrame">
+          <X>55</X>
+          <Y>22</Y>
+          <Z>55</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>4</X>
+          <Y>0.5</Y>
+          <Z>4</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>1.0</R>
+          <G>0.55</G>
+          <B>0.0</B>
+        </Color3>
+      </Properties>
+    </Item>
+    <Item class="SpawnLocation" referent="RBX8321F50B03634DF9A1CB622E2A17A734">
+      <Properties>
+        <string name="Name">Spawn</string>
+        <bool name="Anchored">true</bool>
+        <bool name="Enabled">false</bool>
+        <float name="Transparency">0.5</float>
+        <CoordinateFrame name="CFrame">
+          <X>-55</X>
+          <Y>22</Y>
+          <Z>55</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>4</X>
+          <Y>0.5</Y>
+          <Z>4</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>1.0</R>
+          <G>0.55</G>
+          <B>0.0</B>
+        </Color3>
+      </Properties>
+    </Item>
+    <Item class="SpawnLocation" referent="RBXB02AA8A64C034A1790342F43E6CC0AE6">
+      <Properties>
+        <string name="Name">Spawn</string>
+        <bool name="Anchored">true</bool>
+        <bool name="Enabled">false</bool>
+        <float name="Transparency">0.5</float>
+        <CoordinateFrame name="CFrame">
+          <X>55</X>
+          <Y>22</Y>
+          <Z>-55</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>4</X>
+          <Y>0.5</Y>
+          <Z>4</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>1.0</R>
+          <G>0.55</G>
+          <B>0.0</B>
+        </Color3>
+      </Properties>
+    </Item>
+    <Item class="SpawnLocation" referent="RBXB0F1F8831E134F6DB4F5ADFF38AA8D39">
+      <Properties>
+        <string name="Name">Spawn</string>
+        <bool name="Anchored">true</bool>
+        <bool name="Enabled">false</bool>
+        <float name="Transparency">0.5</float>
+        <CoordinateFrame name="CFrame">
+          <X>-55</X>
+          <Y>22</Y>
+          <Z>-55</Z>
+          <R00>1</R00>
+          <R01>0</R01>
+          <R02>0</R02>
+          <R10>0</R10>
+          <R11>1</R11>
+          <R12>0</R12>
+          <R20>0</R20>
+          <R21>0</R21>
+          <R22>1</R22>
+        </CoordinateFrame>
+        <Vector3 name="size">
+          <X>4</X>
+          <Y>0.5</Y>
+          <Z>4</Z>
+        </Vector3>
+        <Color3 name="Color">
+          <R>1.0</R>
+          <G>0.55</G>
+          <B>0.0</B>
+        </Color3>
+      </Properties>
+    </Item>
+  </Item>
+</roblox>

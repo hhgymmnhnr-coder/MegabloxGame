@@ -46,7 +46,7 @@
     "Workspace": {
       "$properties": { "FilteringEnabled": true },
       "Spawns": { "$className": "Folder" },
-      "Arena": { "$className": "Folder" },
+      "Arena": { "$path": "src/world/Arena.rbxmx" },
       "LobbySpawn": {
         "$className": "SpawnLocation",
         "$properties": {
