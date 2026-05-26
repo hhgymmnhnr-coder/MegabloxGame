@@ -25,13 +25,12 @@
           "$className": "Part",
           "$properties": {
             "Size": [0.8, 4, 0.8],
-            "BrickColor": "Bright red",
+            "Color": [0.768, 0.157, 0.110],
             "Material": "SmoothPlastic",
             "Anchored": false
           }
         },
         "HammerScript": {
-          "$className": "LocalScript",
           "$path": "src/tools/BonkHammer/hammer.client.luau"
         }
       }

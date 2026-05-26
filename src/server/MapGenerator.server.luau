@@ -2,7 +2,7 @@ local arena = workspace:WaitForChild("Arena")
 local spawns = workspace:WaitForChild("Spawns")
 local RunService = game:GetService("RunService")
 
-workspace.FallenPartsDestroyHeight = -80
+workspace.FallenPartsDestroyHeight = -100
 
 -- Couleurs thème désert low-poly (inspiré Megabonk)
 local C = {
@@ -42,15 +42,15 @@ local function wedge(size, pos, color, rot)
 	return w
 end
 
-local function spawnPt(pos)
+local function spawnPt(pos, enabled)
 	local s = Instance.new("SpawnLocation")
 	s.Size = Vector3.new(4, 0.5, 4)
 	s.CFrame = CFrame.new(pos)
 	s.BrickColor = C.accent
 	s.Material = Enum.Material.Neon
 	s.Anchored = true
-	s.Enabled = false
-	s.Transparency = 0.3
+	s.Enabled = enabled or false
+	s.Transparency = enabled and 0.6 or 0.9
 	s.Parent = spawns
 end
 
@@ -73,8 +73,8 @@ end
 -- =====================
 -- SOL PRINCIPAL (arène désert)
 -- =====================
--- Base sablonneuse
-p(Vector3.new(90, 3, 90), Vector3.new(0, -1.5, 0), C.sand)
+-- Base sablonneuse (top surface = y=4)
+p(Vector3.new(90, 8, 90), Vector3.new(0, 0, 0), C.sand)
 -- Texture variations (dalles)
 for x = -3, 3 do
 	for z = -3, 3 do
@@ -206,15 +206,19 @@ sun.Parent = lighting
 -- =====================
 -- SPAWNS
 -- =====================
+-- Spawn lobby central (enabled = joueurs spawent ici par défaut)
+spawnPt(Vector3.new(0, 6, 0), true)
+
+-- Spawns de round (disabled, activés par le server)
 for _, pos in {
-	Vector3.new(22, 2, 0),  Vector3.new(-22, 2, 0),
-	Vector3.new(0, 2, 22),  Vector3.new(0, 2, -22),
-	Vector3.new(50, 18, 0), Vector3.new(-50, 18, 0),
-	Vector3.new(0, 18, 50), Vector3.new(0, 18, -50),
-	Vector3.new(55, 31, 55), Vector3.new(-55, 31, 55),
-	Vector3.new(55, 31, -55), Vector3.new(-55, 31, -55),
+	Vector3.new(22, 6, 0),  Vector3.new(-22, 6, 0),
+	Vector3.new(0, 6, 22),  Vector3.new(0, 6, -22),
+	Vector3.new(50, 20, 0), Vector3.new(-50, 20, 0),
+	Vector3.new(0, 20, 50), Vector3.new(0, 20, -50),
+	Vector3.new(55, 34, 55), Vector3.new(-55, 34, 55),
+	Vector3.new(55, 34, -55), Vector3.new(-55, 34, -55),
 } do
-	spawnPt(pos)
+	spawnPt(pos, false)
 end
 
 -- =====================
