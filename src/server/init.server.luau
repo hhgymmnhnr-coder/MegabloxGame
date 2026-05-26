@@ -28,11 +28,9 @@ local function getSpawns()
 end
 
 local function giveHammer(player)
-	local char = player.Character
-	if not char then return end
 	local template = ServerStorage:FindFirstChild("BonkHammer")
 	if template then
-		template:Clone().Parent = char
+		template:Clone().Parent = player.Backpack
 	end
 end
 
